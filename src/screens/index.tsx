@@ -90,6 +90,7 @@ function App(): JSX.Element {
           <Section title="Learn More">
             Read the docs to discover what to do next:
           </Section>
+          <Text>えええ</Text>
           <LearnMoreLinks />
         </View>
       </ScrollView>
