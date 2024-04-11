@@ -5,9 +5,15 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "open": "open ./ios/*.xcworkspace",
+    "test": "jest",
+    "lint": "eslint .",
+    "pod": "cd ios && pod install --repo-update && cd ..",
+    "c": "yarn cache clean",
+    "rm": "rm -r node_modules/",
+    "reset": "yarn rm && yarn && yarn pod",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "react": "18.2.0",
