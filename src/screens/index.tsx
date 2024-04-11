@@ -82,6 +82,7 @@ function App(): JSX.Element {
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
+            <Text>いいい</Text>
           </Section>
           <Section title="Debug">
             <DebugInstructions />
