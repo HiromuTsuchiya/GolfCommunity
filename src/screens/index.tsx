@@ -89,6 +89,9 @@ function App(): JSX.Element {
           <Section title="Learn More">
             Read the docs to discover what to do next:
           </Section>
+          <Section title="Learn More">追加1</Section>
+          <Section title="Learn More">残す1</Section>
+
           <LearnMoreLinks />
         </View>
       </ScrollView>
